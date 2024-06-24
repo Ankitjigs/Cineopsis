@@ -28,6 +28,8 @@ Cineopsis is a movie-browsing application that allows users to search for movies
     * Korean
     * Turkish
 
+`For using Language, first choose in which genre you want movies. Then select language according to your preference.`
+
 * By Genre
     * Action
     * Adventure
