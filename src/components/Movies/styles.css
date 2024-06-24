@@ -1,0 +1,60 @@
+.movies-container {
+  overflow-y: scroll;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: thin;
+  display: flex;
+  overflow-x: hidden;
+}
+
+.motion-container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-evenly;
+}
+
+.loader {
+  margin: 40px;
+}
+
+.infinite-scroll {
+  width: 100%;
+  padding: 0 8px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+.no-result-found-image-wrap{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+}
+
+.no-result-image-container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 30%;
+}
+
+@media screen and (min-width: 768px) {
+  .infinite-scroll {
+    padding: 8px;
+    justify-content: space-around;
+    gap: 0.25rem 0.25rem;
+  }
+
+  .movies-container{
+    margin-left: 240px;
+    padding: 10px;
+    margin-bottom: 0;
+  }
+
+  .motion-container {
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,46 @@
+.upcoming-movies-container{
+  overflow-y: scroll;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: thin;
+  overflow-x: hidden;
+}
+
+
+
+
+.no-result-found-image-wrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.no-result-image-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 50%;
+}
+
+.no_result_text {
+  display: flex;
+  font-size: 2rem;
+}
+  
+
+@media screen and (min-width: 768px) {
+  .upcoming-movies-container-with-result{
+    margin-left: 240px;
+    padding: 10px;
+    margin-bottom: 0;
+  }
+
+  .upcoming-movies-container-no-result{
+    margin-left: 240px;
+    padding: 10px;
+    margin-bottom: 0;
+  }
+
+}
+  

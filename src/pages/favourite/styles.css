@@ -1,0 +1,37 @@
+.favourite-card-wrap {
+  /* width: 100%; */
+  padding: 0 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* position: relative; */
+  /* justify-content: space-evenly; */
+  /* overflow: hidden; */
+}
+
+@media screen and (min-width:768px){
+    .favourite-card-wrap{
+        padding: 8px;
+        justify-content: space-around;
+    }
+}
+
+.no-result-found-image-wrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.no-result-image-container-favourite {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 30%;
+}
+
+.no_result_text {
+  display: flex;
+  font-size: 2rem;
+}

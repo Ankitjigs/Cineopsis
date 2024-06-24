@@ -1,0 +1,132 @@
+.container {
+  display: flex;
+  margin: 0 0 0 40px;
+  padding: 0 4px;
+  flex: 1;
+  flex-basis: 0.000000001px;
+}
+
+.search-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 30rem;
+  position: relative;
+  flex: 1;
+  flex-basis: 0.000000001px;
+  flex-direction: row;
+}
+
+.search-container {
+  position: relative;
+  align-items: center;
+  padding: 0 4px 0 16px;
+  margin-left: 32px;
+  flex: 1;
+  flex-basis: 0.000000001px;
+  display: flex;
+  flex-direction: row;
+  height: 38.5px;
+  width: 100%;
+}
+
+.search-container-light{
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 40px 0 0 40px;
+  box-shadow: inset 0 1px 2px #eee;
+  caret-color: #0f0f0f;
+  color: #121212;
+}
+
+.search-container-dark{
+  background-color: #09020d;
+    border: 1px solid #190623;
+    border-right: none;
+    border-radius: 40px 0 0 40px;
+    box-shadow: inset 0 1px 2px #2a0c3a;
+    caret-color: #ffffff;
+    
+}
+
+.search-input {
+  outline: none;
+  border: 0;
+  height: 24px;
+  width: 100%;
+}
+
+.search-input-color-light{
+  background-color: #ffffff;
+  color: #2c2c2c;
+}
+
+.search-input-color-dark{
+  background-color: #09020d;
+  color: #ffffff;
+}
+
+.search-button {
+  border-radius: 0 40px 40px 0;
+  cursor: pointer;
+  height: 40px;
+  width: 64px;
+  margin: 0;
+}
+
+.search-button-light{
+  border: 1px solid #d3d3d3;
+  background-color: #f8f8f8;
+}
+
+.search-button-light:hover{
+    background-color: #f0f0f0;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+}
+
+.search-button-dark{
+  border: 1px solid #190623;
+  background-color: #21082f;
+}
+
+.search-button-dark:hover{
+  background-color: #320d47;
+  border: 1px solid #41115c;
+  box-shadow: inset 0 1px 2px #2a0c3a;
+}
+
+.search-icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxShadowInput {
+  -webkit-box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+  transition: box-shadow 0.15s ease-in-out;
+}
+
+.inputClassFocus{
+    border: 1px solid #86b7fe;
+    transition: border 0.15s ease-in-out;
+  }
+
+@media screen and (min-width:768px) and (max-width:992px){
+    .container{
+        margin: 0px;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    .container{
+        margin:0px
+    }
+    .search-container{
+        margin-left: 10px;
+    }
+}

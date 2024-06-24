@@ -1,0 +1,19 @@
+.no-result-found-image-wrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.no-result-image-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 30%;
+}
+
+.no_result_text {
+  display: flex;
+  font-size: 2rem;
+}

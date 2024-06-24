@@ -1,0 +1,164 @@
+.movie-container {
+  overflow-y: scroll;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: thin;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.loader-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-movie {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.back-button {
+  position: fixed;
+  z-index: 10;
+  font-size: 2.5rem;
+  color: black;
+  background: white;
+  margin: 1rem;
+  border-radius: 50%;
+  width: 15px;
+}
+
+.poster-container {
+  position: relative;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.shadow-backdrop {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.movie-title {
+  position: absolute;
+  bottom: 0;
+  padding: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}
+
+.poster-image {
+  width: 100%;
+}
+
+.movie-overview {
+  text-align: center;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1.1rem;
+}
+
+.release-date-container {
+  text-align: center;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.release-date {
+  background: #190623;
+  border: 2px solid #190623;
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  width: fit-content;
+  color: #ffffff;
+}
+
+.genres-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+
+.genre-tag {
+  background: #190623;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  color: #fff;
+}
+
+.cast-container {
+  text-align: center;
+}
+
+.cast-title {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.cast-list {
+  display: flex;
+  justify-content: flex-start;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+}
+
+.cast-item {
+  min-width: 9rem;
+  max-width: 9rem;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.cast-image {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.cast-name,
+.cast-character {
+  margin: 0.5rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .movie-container {
+    padding: 10px;
+    margin-bottom: 0;
+    margin-left: 240px;
+  }
+}

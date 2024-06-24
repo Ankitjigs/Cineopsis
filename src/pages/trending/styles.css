@@ -1,0 +1,92 @@
+/* .movies-container {
+  overflow-y: scroll;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: thin;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+} */
+
+.upcoming-movies-container{
+  overflow-y: scroll;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: thin;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.motion-container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-evenly;
+}
+
+.loader {
+  margin: 40px;
+}
+
+.infinite-scroll {
+  width: 100%;
+  padding: 0 8px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+.no-result-found-image-wrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.no-result-image-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 30%;
+}
+
+.no_result_text {
+  display: flex;
+  font-size: 2rem;
+}
+
+
+@media screen and (min-width: 768px) {
+  .infinite-scroll {
+    padding: 8px;
+    justify-content: space-around;
+    gap: 0.25rem 0.25rem;
+  }
+  .trending-movies-container-with-result{
+    margin-left: 240px;
+    padding: 10px;
+    margin-bottom: 0;
+  }
+
+  .trending-movies-container-no-result{
+    margin-left: 0px;
+    padding: 10px;
+    margin-bottom: 0;
+  }
+  
+
+  .motion-container {
+    justify-content: space-around;
+  }
+  
+}
+
+@media screen and (max-width:767px) {
+    .heading {
+        display: flex;
+        margin-top: 1.25rem;
+        margin-left: 0.75rem;
+      }
+}

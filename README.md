@@ -1,6 +1,71 @@
-# Getting Started with Create React App
+# CINEOPSIS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Cineopsis is a movie-browsing application that allows users to search for movies. The user can filter movies with various filters and can favourite their selections. This intuitive movie app gives a seamless experience for movie lovers looking to explore a diverse range of movies. 
+
+
+* Features
+
+    * Searching: Easily search for movies by title.
+    * Filters : Refine your search by various filters.
+    * LightMode / DarkMode : Toggle between light and dark theme for comfortable viewing experience.
+
+## Filters
+
+* By Cateogories
+    * Trending
+    * Favourite
+    * Upcoming
+
+* By Languages
+    * English
+    * Hindi
+    * Telugu
+    * Tamil
+    * Kannada
+    * Bengali
+    * Malayalam
+    * Japanese
+    * Korean
+    * Turkish
+
+* By Genre
+    * Action
+    * Adventure
+    * Animation
+    * Comedy
+    * Crime
+    * Documentary
+    * Drama
+    * Family
+    * Fantasy
+    * History
+    * Horror
+    * Music
+    * Romance 
+    * Science Fiction and many more...
+
+* By Rating from 0.0 to 10.0
+
+## Getting Started
+To get a local copy of Cineopsis up and running on your machine, follow these simple steps:
+
+### Prerequisites
+
+Make sure you have installed these :
+
+- Node.js
+- npm(Node Package Manager)
+
+### Installation
+1. Clone the repository:
+### `git clone `
+
+2. Navigate to the project directory:
+### `cd cineopsis`
+
+3. Install the dependencies:
+### `npm install`
+
 
 ## Available Scripts
 
@@ -39,32 +104,4 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
