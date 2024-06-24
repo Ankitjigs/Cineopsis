@@ -53,6 +53,7 @@
     margin-left: 240px;
     padding: 10px;
     margin-bottom: 0;
+    flex-direction: column;
   }
 
   .motion-container {

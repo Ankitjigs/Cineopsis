@@ -18,7 +18,7 @@ const Favourite = () => {
   }, []);
   return (
     <>
-      <div className="movies-container">
+      <div className="movies-container" style={{height:"100vh"}}>
         <div className={`heading ${textColor}`}>
           <h1>Favourite Movies</h1>
         </div>
