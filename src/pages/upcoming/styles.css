@@ -3,10 +3,8 @@
   scrollbar-color: transparent transparent;
   scrollbar-width: thin;
   overflow-x: hidden;
+  height: 100%;
 }
-
-
-
 
 .no-result-found-image-wrap {
   display: flex;

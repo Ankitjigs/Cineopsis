@@ -14,6 +14,7 @@
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .motion-container {
@@ -68,12 +69,14 @@
     margin-left: 240px;
     padding: 10px;
     margin-bottom: 0;
+    height: 100%;
   }
 
   .trending-movies-container-no-result{
     margin-left: 0px;
     padding: 10px;
     margin-bottom: 0;
+    height: 100%;
   }
   
 
